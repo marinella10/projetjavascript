@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+ <!--Encoder les charactères à ç etc...-->
+ <meta charset="UTF-8">
+
+ <!--Option de compatibilté avec Internet Explorer Edge-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+ <!--Option pour adapter votre  page a tous les ecrans (Responsive Web Design)-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+ <!--Appel du fichier css dans le dossier css/styles.css-->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/acceuil.css">
+<link rel="stylesheet" href="css/break.css">
+<link rel="stylesheet" href="css/connexion.css">
+<link rel="stylesheet" href="css/menu.css">
+<link rel="stylesheet" href="css/menugauche.css">
+<link rel="stylesheet" href="css/produit.css">
+
+
+<body>
+<h1><strong>CONNEXION</strong></h1>
+
+<!--creer une div loader pour le récuperer dans le javascript-->
+<div id="loader"></div>
+
+
+
+<!--creer un formulaire-->
+<div id="form">
+
+<!--creer les champs pour la connexion-->
+
+
+<label id="" for ="email">Email</label>
+<input id="email" placeholder="Email" type="email" required > 
+
+
+<label id="" for ="passeword">Mot de passe</label>
+<input id="passeword" placeholder="Mot de passe" type="password" required> 
+
+
+<label id="number" for ="number"> </label>
+<input id="numberinput" placeholder="" type="number" required> 
+
+<button type="submit" onclick="connection()">connexion</button>
+</div>
+
+
+<!--creer une id dans le dom pour récuperer errer dans le javascript-->
+<p id="erreur"></p>
+
+
+
+<!--fichier pour appeler javascript-->
+    <script src="js/connexion.js"></script>
+ 
+</body>
+</html>
