@@ -36,3 +36,21 @@ text-align: center;
   }
   
 
+  input#email{
+    margin-right: 30px;
+    border-radius: 20px;
+    background-color: pink;
+  }
+
+
+  input#passeword{
+  margin-right: 30px;
+  border-radius: 20px;
+  background-color: pink;
+}
+
+  input#numberinput{
+   border-radius: 20px;
+   background-color: pink;
+   
+  }
