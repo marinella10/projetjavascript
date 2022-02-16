@@ -12,9 +12,11 @@ bloc4Enfant.innerHTML = `
         <i class="fa fa-star fa-3x"></i>
         <i class="fa fa-star fa-3x"></i>
                
-        </div>
+        </div>                            
         <div class="line-white"></div>
     </div>
+
+
     
     <div class="input">
         <label for="name">Nom</label>
@@ -32,7 +34,7 @@ bloc4Enfant.innerHTML = `
     </div>
     
     <div class="input">
-        <label for="message">Nom</label>
+        <label for="message">Message</label>
         <textarea class="inputForm"  id="message" rows="5"></textarea>
     </div>
     
@@ -41,6 +43,7 @@ bloc4Enfant.innerHTML = `
     
     
     </div>
+    
 `
 
 bloc4.appendChild(bloc4Enfant)

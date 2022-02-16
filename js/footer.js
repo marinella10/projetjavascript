@@ -19,7 +19,7 @@ footer.innerHTML = `
             </a>
             
             <a href="">
-                <i class="fa fa-brands fa-linkedin-in fa-3x"></i>
+                <i class="fa fa-brands fa-linkedin fa-3x"></i>
             </a>
             
             <a href="">

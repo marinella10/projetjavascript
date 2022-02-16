@@ -16,8 +16,8 @@ let dy = -2;
 let ballRadius = 10;
 
 //Le player
-let playerHeight = 10;
-let playerWidth = 75;
+let playerHeight = 30;
+let playerWidth = 675;
 
 //Position horizontale du player
 //lageur du canvas - largeur du player (75) / 2 pour la moitier
@@ -32,16 +32,16 @@ document.addEventListener("keydown", keyDownHandler, false);
 document.addEventListener("keyup", keyUpHandler, false);
 
 //Les briques
-//3 ligne de biques
-let brickRowCount = 3;
-//5 briques par ligne
-let brickColumnCount = 9;
+//8 ligne de biques
+let brickRowCount = 8;
+//10 briques par ligne
+let brickColumnCount = 10;
 //Largeur d'une brique 75 comme le player
 let brickWidth = 75;
 //Jauteur de la bique
 let brickHeight = 20;
 //Espace entre les briques
-let brickPadding = 10;
+let brickPadding = 5;
 //Marge en haut
 let brickOffSetTop = 30;
 //Marge a gauche
