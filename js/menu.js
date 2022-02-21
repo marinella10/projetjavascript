@@ -41,8 +41,8 @@ function showHideMenu(){
     }
 }
 
-function femerMenuGauche() {
-    document.getElementById("menuGaucheID").style.width = "0"
+function ouvrirCoteGauche() {
+    document.getElementById("menuGaucheID").style.width = "100%"
 }
 //passer au mode dark - light
 //Fonction appelée depuis l'attribut onclick de ma balise <a> qui contient une icone <i>

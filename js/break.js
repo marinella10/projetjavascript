@@ -2,12 +2,13 @@
 
 /*Recup du canvas*/
 let canvas = document.getElementById("monCanvas");
+canvas.style.backgroundColor = "green"
 //Le contexte de rendu (2d ou 3d)
 let context = canvas.getContext('2d');
 //position de la balle abscisse
 let x = canvas.width/2;
 //position en bas au centre en ordonnées
-let y = canvas.height-30;
+let y = canvas.height-10;
 //On ajoute a x et y une valeur pour le deplacement soit +2 en x et -2 en y pour quelle monte
 //Ceci creer une diagonale
 let dx = 2;
@@ -16,8 +17,8 @@ let dy = -2;
 let ballRadius = 10;
 
 //Le player
-let playerHeight = 30;
-let playerWidth = 675;
+let playerHeight = 10;
+let playerWidth = 100;
 
 //Position horizontale du player
 //lageur du canvas - largeur du player (75) / 2 pour la moitier
@@ -283,7 +284,7 @@ function draw(){
 }
 
 canvas.addEventListener('click', () => {
-
+    console.log ("salut")
+    draw();
 })
 //Elle est appelée toutes 10ms
-draw();
